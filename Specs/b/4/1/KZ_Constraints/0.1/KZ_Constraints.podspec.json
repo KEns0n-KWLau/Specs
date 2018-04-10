@@ -11,17 +11,20 @@
     "KieronZhang.": "https://github.com/KieronZhang"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "source": {
     "git": "https://github.com/KieronZhang/KZ_Constraints.git",
     "tag": "0.1",
     "submodules": true
   },
-  "source_files": "KZ_Constraints/*.{h,m}",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
   "frameworks": [
     "UIKit",
     "Foundation"
   ],
+  "vendored_frameworks": "KZ_Constraints/KZ_ConstraintsFramework.framework",
   "requires_arc": true
 }

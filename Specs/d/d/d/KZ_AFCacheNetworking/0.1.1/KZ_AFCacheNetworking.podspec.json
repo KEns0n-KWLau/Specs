@@ -11,30 +11,34 @@
     "KieronZhang.": "https://github.com/KieronZhang"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "source": {
     "git": "https://github.com/KieronZhang/KZ_AFCacheNetworking.git",
-    "tag": "0.1.1"
+    "tag": "0.1.1",
+    "submodules": true
   },
-  "source_files": [
-    "KZ_AFCacheNetworking/*.{h,m}",
-    "KZ_AFCacheNetworking/**/*.{h,m}"
-  ],
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
   "frameworks": [
     "Foundation",
     "UIKit"
   ],
+  "vendored_frameworks": "KZ_AFCacheNetworking/KZ_AFCacheNetworkingFramework.framework",
   "requires_arc": true,
   "dependencies": {
     "AFNetworking": [
-      "~> 3.1.0"
+
     ],
     "SDWebImage": [
       "~> 3.8.2"
     ],
     "KZ_DatabaseModel": [
-      "~> 0.1"
+
+    ],
+    "KZ_Categories": [
+
     ]
   }
 }

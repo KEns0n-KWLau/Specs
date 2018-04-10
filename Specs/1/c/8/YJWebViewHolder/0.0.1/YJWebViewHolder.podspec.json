@@ -1,23 +1,19 @@
 {
   "name": "YJWebViewHolder",
   "version": "0.0.1",
-  "summary": "easy use WKWebView",
-  "description": "让WKWebView使用起来更加简单",
-  "homepage": "https://github.com/Zyj163/YJWebViewHolder",
   "license": "MIT",
+  "summary": "easy use WKWebView in Swift",
+  "homepage": "https://github.com/Zyj163/YJWebViewHolder",
   "authors": {
-    "zhangyj": "zyj194250@163.com"
-  },
-  "platforms": {
-    "ios": "8.0"
+    "zhangyj": "izyj194250@163.com"
   },
   "source": {
     "git": "https://github.com/Zyj163/YJWebViewHolder.git",
     "tag": "0.0.1"
   },
-  "source_files": [
-    "YJWebViewHolder",
-    "YJWebViewHolder/*.{swift}"
-  ],
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YJWebViewHolder/*.swift",
   "pushed_with_swift_version": "3.0"
 }
